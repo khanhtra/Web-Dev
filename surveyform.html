@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Survey Form</title>
+<link rel="stylesheet" href="styles.css">
+<body style="background-color:#FFDADF">
+
+
+<h1 class="text-center" id ="title">Hoodie Survey Form</h1>
+<p class="text-center" id="description">Thank you for taking the time to help us improve!</p>
+
+<form id="survey-form">
+
+<section class="form-options">
+<label id="name-label">Name
+  <input required class="form-control" placeholder="Enter your name">
+</label>
+</section>
+
+<section class="form-options">
+<label id="email-label">Email
+<input required class="form-control" type="email" placeholder="Enter your email">
+</label>
+</section>
+
+<section class="form-options">
+<label id="number-label">Age (optional)
+<input class="form-control" placeholder="Age" type="number" min="0" max="120">
+</label>
+</section>
+
+<section class="form-options">
+<label>What is your current occupation?</label>
+<select id="dropdown" class="form-control">
+  <option>Select current occupation</option>
+  <option>Student</option>
+  <option>Full Time Job</option>
+  <option>Full Time Learner</option>
+  <option>Prefer not to say</option>
+  <option>Other</option>
+</select>
+</section>
+
+<section class="form-options">
+<label class="form-control">Do you like hoodies?</label>
+
+<label class="form-control">
+<input class="input-checkbox" type="radio" name="box" value="0">Yes
+</label>
+
+<label class="form-control">
+<input class="input-checkbox" type="radio" name="box" value="0">Nope
+</label>
+</section>
+
+
+<section class="form-options">
+<label>If so, how often do you wear them?</label>
+<select id="occupation" class="form-control">
+  <option>Select an option</option>
+  <option>Daily</option>
+  <option>Couple times a week</option>
+  <option>Rarely</option>
+  <option>Never</option>
+</select>
+</section>
+
+<section class="form-options">
+<label class="form-control">What are your favorite type of hoodies? (Check all that apply)</label>
+
+<section class="checkboxes">
+<label class="form-control">
+<input class="input-checkbox" type="checkbox" name="box" value="0">Pullover
+</label>
+
+<label class="form-control">
+<input class="input-checkbox" type="checkbox" name="box" value="1">Zip-Up
+</label>
+
+<label class="form-control">
+<input class="input-checkbox" type="checkbox" name="box" value="2">Athletic
+</label>
+
+<label class="form-control">
+<input  class="input-checkbox" type="checkbox" name="box" 
+value="3">Fleece
+</label>
+
+<label class="form-control">
+<input class="input-checkbox" type="checkbox" name="box" value="4">Sleeveless
+</label>
+
+<label class="form-control">
+<input class="input-checkbox" type="checkbox" name="box" value="5">Cropped
+</label>
+
+<label class="form-control">
+<input class="input-checkbox" type="checkbox" name="box" value="6">Knitted
+</label>
+
+<label class="form-control">
+<input class="input-checkbox" type="checkbox" name="box" value="7">Flannel
+</label>
+
+<label class="form-control">
+<input class="input-checkbox" type="checkbox" name="box" value="8">Tunic
+</label>
+
+<label class="form-control">
+<input class="input-checkbox" type="checkbox" name="box" value="9">Half-Zip
+</label>
+
+<label class="form-control">
+<input class="input-checkbox" type="checkbox" name="box" value="10">Varsity
+</label>
+
+</section>
+</section>
+
+<section class="form-options">
+<label for="comment">Any comments or suggestions?</label>
+<textarea class="textarea-control" placeholder= "Enter your comment here">
+</textarea>
+</section>
+
+<button class="submit-button" id="submit" type="submit">Submit</button>
+
+</form>
+</body>

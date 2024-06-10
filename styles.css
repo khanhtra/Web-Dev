@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+body, select, textarea, input, button{
+  font-family: Poppins;
+  color: white;
+}
+p{
+  font-size: 25px;
+}
+form{
+  background-color: #b8e0d2;
+  border-radius: .75rem;
+  padding: 2.5rem 1.625rem;
+  height: 100%;
+  width: 30%;
+  margin: auto;
+  
+}
+select{
+  background-color: white;
+  color:grey;
+}
+
+.text-center{
+  text-align: center;
+}
+h1{
+  line-height: 4;
+  font-weight: 2000;
+  height: 80px;
+  color: #dfffda;
+}
+
+p{
+  line-height: 1;
+  color: #dfffda;
+}
+.form-control{
+  display: block;
+  width: 100%;
+  border-radius: .4rem;
+  height: 2rem;
+}
+
+.input-checkbox, .input-bubble{
+  display: inline-block;
+  margin-right: 0.625rem;
+  min-height: 1rem;
+  min-width: 1rem;
+}
+input, textarea{
+  color: black;
+  font-size: .9rem;
+}
+
+.form-options{
+  margin: 0 auto 1rem auto;
+  padding: 0.15rem;
+}
+
+label{
+  font-size: 1.225rem;
+}
+
+.form-control:focus {
+  border-color: #F9F3AA;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(255, 250, 160, 0.6);
+}
+
+input[type="radio"], input[type="checkbox"] {
+  margin-top: -1px;
+  vertical-align: middle;
+  accent-color: #DCC2E0;
+}
+
+.textarea-control{
+ display: block;
+ width: 100%;
+ border-radius: .4rem;
+ height: 8rem;
+}
+
+.submit-button{
+    display: block;
+    width: 30%;
+    padding: .4rem;
+    color: #F9F3AA;
+    border-radius: 50px;
+    cursor: pointer;
+    margin: auto;
+    background-color: #DCC2E0;
+    font-size: 16px;
+    font-weight: bold;
+}
